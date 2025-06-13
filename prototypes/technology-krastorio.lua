@@ -8,9 +8,9 @@ if not noSpace then
 		{ "production-science-pack", 1 },
 		{ "utility-science-pack", 1 },
 		{ "space-science-pack", 1 },
-		{ "matter-tech-card", 1 },
-		{ "advanced-tech-card", 1 },
-		{ "singularity-tech-card", 1 },
+		{ "kr-matter-tech-card", 1 },
+		{ "kr-advanced-tech-card", 1 },
+		{ "kr-singularity-tech-card", 1 },
 	}
 	ftl.unit.count = ftl.unit.count / 2
 end
@@ -23,7 +23,7 @@ if data.raw.technology["space-casings"] then
 end
 if data.raw.technology["space-thrusters"] then
 	table.insert(data.raw.technology["space-thrusters"].prerequisites, "kr-steel-fluid-handling")
-	table.insert(data.raw.technology["space-thrusters"].prerequisites, "kr-advanced-additional-engine")
+	table.insert(data.raw.technology["space-thrusters"].prerequisites, "kr-advanced-additional-engine-equipment")
 end
 if data.raw.technology["fuel-cells"] then
 	data.raw.technology["fuel-cells"].prerequisites = { "space-construction", "kr-fusion-energy" }
@@ -34,11 +34,29 @@ if data.raw.technology["life-support-systems"] then
 end
 if data.raw.technology["exploration-satellite"] then
 	data.raw.technology["exploration-satellite"].prerequisites = { "ftl-propulsion", "space-thrusters", "kr-fusion-energy" }
+  data.raw.technology["exploration-satellite"].unit.ingredients = {
+    { "production-science-pack", 1 },
+    { "utility-science-pack", 1 },
+    { "space-science-pack", 1 },
+    { "kr-matter-tech-card", 1 },
+    { "kr-advanced-tech-card", 1 },
+    { "kr-singularity-tech-card", 1 },
+  }
+
 end
 if data.raw.technology["space-fluid-tanks"] then
 	data.raw.technology["space-fluid-tanks"].prerequisites = {
 		"ftl-propulsion", "kr-steel-fluid-tanks", "kr-fusion-energy"
 	}
+  data.raw.technology["space-fluid-tanks"].unit.ingredients = {
+    { "production-science-pack", 1 },
+    { "utility-science-pack", 1 },
+    { "space-science-pack", 1 },
+    { "kr-matter-tech-card", 1 },
+    { "kr-advanced-tech-card", 1 },
+    { "kr-singularity-tech-card", 1 },
+  }
+
 end
 if data.raw.technology["space-ai-robots"] then
 	data.raw.technology["space-ai-robots"].prerequisites = {
@@ -48,10 +66,19 @@ if data.raw.technology["space-ai-robots"] then
 		"kr-battery-mk3-equipment",
 		"kr-power-armor-mk3",
 		"fission-reactor-equipment",
-		"advanced-radar",
+		"kr-advanced-radar",
 		"kr-personal-laser-defense-mk3-equipment",
 		"personal-roboport-mk2-equipment",
 	}
+  data.raw.technology["space-ai-robots"].unit.ingredients = {
+    { "production-science-pack", 1 },
+    { "utility-science-pack", 1 },
+    { "space-science-pack", 1 },
+    { "kr-matter-tech-card", 1 },
+    { "kr-advanced-tech-card", 1 },
+    { "kr-singularity-tech-card", 1 },
+  }
+
 end
 if data.raw.technology["laser-cannon"] then
 	data.raw.technology["laser-cannon"].prerequisites = { "space-construction", "circuit-network", "kr-laser-artillery-turret" }
@@ -104,9 +131,9 @@ if not classicMode then
 			{ "production-science-pack", 1 },
 			{ "utility-science-pack", 1 },
 			{ "space-science-pack", 1 },
-			{ "matter-tech-card", 1 },
-			{ "advanced-tech-card", 1 },
-			{ "singularity-tech-card", 1 },
+			{ "kr-matter-tech-card", 1 },
+			{ "kr-advanced-tech-card", 1 },
+			{ "kr-singularity-tech-card", 1 },
 		}
 		sc.unit.count = sc.unit.count / 2
 	end
