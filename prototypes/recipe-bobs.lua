@@ -131,5 +131,5 @@ if not classicMode then
 		"bob-personal-laser-defense-equipment-6"
 	)
 	bobmods.lib.recipe.replace_ingredient("space-ai-robot-frame", "construction-robot", "bob-construction-robot-4")
-	bobmods.lib.recipe.replace_ingredient("space-ai-robot-frame", "logisitc-robot", "bob-logisitc-robot-4")
+	bobmods.lib.recipe.replace_ingredient("space-ai-robot-frame", "logistic-robot", "bob-logistic-robot-4")
 end
