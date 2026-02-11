@@ -12,8 +12,8 @@ if not noSpace then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+ 	    { "pm-metalloid-science-pack", 1 },
+    	{ "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
 	}
@@ -30,8 +30,8 @@ if data.raw.technology["exploration-satellite"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+	    { "pm-metalloid-science-pack", 1 },
+	    { "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
     { "space-science-pack", 1 },
@@ -49,8 +49,8 @@ if data.raw.technology["space-fluid-tanks"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+	    { "pm-metalloid-science-pack", 1 },
+	    { "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -69,8 +69,8 @@ if data.raw.technology["space-ai-robots"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+   		{ "pm-metalloid-science-pack", 1 },
+    	{ "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -115,8 +115,8 @@ if data.raw.technology["space-casings"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+  	    { "pm-metalloid-science-pack", 1 },
+ 	    { "pm-alkaline-earth-metal-science-pack", 1 },
   }
 end
 
@@ -130,7 +130,7 @@ if data.raw.technology["protection-fields"] then
 		{ "logistic-science-pack", 1 },
 		{ "pm-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "chemical-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+    	{ "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
 end
@@ -143,8 +143,8 @@ if data.raw.technology["fusion-reactor"] then
   data.raw.technology["fusion-reactor"].unit.ingredients = {
 		{ "automation-science-pack", 1 },
 		{ "logistic-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+  		{ "pm-metalloid-science-pack", 1 },
+    	{ "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -162,8 +162,8 @@ if data.raw.technology["habitation"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+    	{ "pm-metalloid-science-pack", 1 },
+   	 	{ "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -181,7 +181,7 @@ if data.raw.technology["space-thrusters"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
+	    { "pm-metalloid-science-pack", 1 },
   }
 end
 
@@ -197,8 +197,8 @@ if data.raw.technology["life-support-systems"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+	    { "pm-metalloid-science-pack", 1 },
+  		{ "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -215,8 +215,8 @@ if data.raw.technology["astrometrics"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+  		{ "pm-metalloid-science-pack", 1 },
+   		{ "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -234,8 +234,8 @@ if data.raw.technology["spaceship-command"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+	    { "pm-metalloid-science-pack", 1 },
+	    { "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -253,8 +253,8 @@ if data.raw.technology["laser-cannon"] then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+  	    { "pm-metalloid-science-pack", 1 },
+  	    { "pm-alkaline-earth-metal-science-pack", 1 },
 		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
 		{ "pm-noble-gas-science-pack", 1 },
   }
@@ -289,8 +289,8 @@ if rampUp then
 		{ "chemical-science-pack", 1 },
 		{ "pm-post-transition-metal-science-pack", 1 },
 		{ "pm-alkali-metal-science-pack", 1 },
-    { "pm-metalloid-science-pack", 1 },
-    { "pm-alkali-earth-metal-science-pack", 1 },
+ 	    { "pm-metalloid-science-pack", 1 },
+ 	    { "pm-alkaline-earth-metal-science-pack", 1 },
 	}
 	if noSpace then
 		data.raw.technology["ftl-propulsion"].unit.ingredients = {
