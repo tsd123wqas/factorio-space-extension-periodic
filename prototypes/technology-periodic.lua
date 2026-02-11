@@ -260,6 +260,24 @@ if data.raw.technology["laser-cannon"] then
   }
 end
 
+if data.raw.technology["fuel-cells"] then
+	data.raw.technology["fuel-cells"].prerequisites = {
+		"space-construction",
+	}
+  data.raw.technology["fuel-cells"].unit.ingredients = {
+		{ "automation-science-pack", 1 },
+		{ "logistic-science-pack", 1 },
+		{ "pm-advanced-advanced-transition-metal-science-pack", 1 },
+		{ "chemical-science-pack", 1 },
+		{ "pm-post-transition-metal-science-pack", 1 },
+		{ "pm-alkali-metal-science-pack", 1 },
+	    { "pm-metalloid-science-pack", 1 },
+	    { "pm-alkaline-earth-metal-science-pack", 1 },
+		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
+		{ "pm-noble-gas-science-pack", 1 },
+  }
+end
+
 if rampUp then
 	data.raw.technology["ftl-theory-A"].unit.ingredients = {
 		{ "automation-science-pack", 1 },
