@@ -33,6 +33,19 @@ local function replace(recipe_name, old, new, new_amount)
 		end
 	end
 end
+local function insert_ingredient(recipe_name, ingredient, amount)
+	local recipe = data.raw["recipe"][recipe_name]
+	if recipe then
+		for _, diff in pairs({ recipe }) do
+			if diff then
+				if diff.ingredients then
+					table.insert(diff.ingredients, { type = "item", name = ingredient, amount = amount })
+				end
+			end
+		end
+	end
+end
+
 
 replace("space-oxygen-tank", "storage-tank", "pm-stainless-steel-storage-tank")
 replace("space-oxygen-tank", "pump", "pm-stainless-steel-pump")
