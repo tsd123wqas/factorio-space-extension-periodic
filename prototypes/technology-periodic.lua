@@ -278,6 +278,26 @@ if data.raw.technology["fuel-cells"] then
   }
 end
 
+if data.raw.technology["space-cartopgraphy"] then
+	data.raw.technology["space-cartography"].prerequisites = {
+		"exploration-satellite",
+	}
+  data.raw.technology["space-cartography"].unit.ingredients = {
+		{ "automation-science-pack", 1 },
+		{ "logistic-science-pack", 1 },
+		{ "pm-advanced-advanced-transition-metal-science-pack", 1 },
+		{ "chemical-science-pack", 1 },
+		{ "pm-post-transition-metal-science-pack", 1 },
+		{ "pm-alkali-metal-science-pack", 1 },
+	    { "pm-metalloid-science-pack", 1 },
+	    { "pm-alkaline-earth-metal-science-pack", 1 },
+		{ "pm-advanced-advanced-advanced-transition-metal-science-pack", 1 },
+		{ "pm-noble-gas-science-pack", 1 },
+		{ "space-science-pack", 1 },
+  }
+end
+
+
 if rampUp then
 	data.raw.technology["ftl-theory-A"].unit.ingredients = {
 		{ "automation-science-pack", 1 },
