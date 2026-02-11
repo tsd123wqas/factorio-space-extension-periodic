@@ -4,7 +4,7 @@ Greatly extend the end game requiring multiple launches, massively increased sci
 
 # New in this Fork
 Compatibility for periodic madness mod
-Among other things this fork adds to the existing SpaceX experience:  
+-Among other things this fork adds to the existing SpaceX experience:  
 
 - A new stage which requires you to get the space-craft ready for the long journey
 - Updated GUI
