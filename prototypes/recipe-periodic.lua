@@ -85,7 +85,7 @@ replace("ftl-drive", "processing-unit", "pm-space-processing-unit")
 
 
 
-replace("astrometrics", "lab", "pm-bio-laboratory")
+replace("astrometrics", "lab", "pm-bio-lab")
 replace("astrometrics", "speed-module-3", "pm-speed-module-5")
 replace("astrometrics", "processing-unit", "pm-space-processing-unit")
 
