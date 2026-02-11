@@ -13,12 +13,12 @@ if settings.startup["SpaceX-no-bob"].value == false then
 		require("__SpaceModFeorasFork__/prototypes/technology-bobs")
 	end
 end
-	if
-		mods["periodic-madness"]
-	then
-		require("__SpaceModFeorasFork__/prototypes/recipe-periodic")
-		require("__SpaceModFeorasFork__/prototypes/technology-periodic")
-	end
+if
+	mods["periodic-madness"]
+then
+	require("__SpaceModFeorasFork__/prototypes/recipe-periodic")
+	require("__SpaceModFeorasFork__/prototypes/technology-periodic")
+end
 
 
 if settings.startup["SpaceX-no-krastorio"].value == false then
